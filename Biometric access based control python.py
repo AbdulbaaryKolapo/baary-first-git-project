@@ -37,4 +37,5 @@ import json
 with open("biometric_template.json", "w") as f:
     json.dump(biometric_template, f, indent=4) # Save in json format
 
-print("Biometric template created and saved.")
+print("Biometric template created and stored.")
+
